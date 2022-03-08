@@ -1,5 +1,5 @@
-import test from 'tape'
-import {dictionary as cmu} from './index.js'
+const test = require('tape')
+const {dictionary: cmu} = require('./index.js')
 
 test('cmu-pronouncing-dictionary', (t) => {
   t.ok(typeof cmu === 'object', 'should be an object')

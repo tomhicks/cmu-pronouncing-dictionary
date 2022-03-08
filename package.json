@@ -31,8 +31,6 @@
   ],
   "devDependencies": {
     "@types/tape": "^4.0.0",
-    "bail": "^2.0.0",
-    "concat-stream": "^2.0.0",
     "prettier": "^2.0.0",
     "remark-cli": "^9.0.0",
     "remark-preset-wooorm": "^8.0.0",
@@ -43,12 +41,11 @@
     "xo": "^0.40.0"
   },
   "scripts": {
-    "generate": "node build",
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
     "test-api": "node test",
     "test-types": "rimraf \"*.d.ts\" && tsc && type-coverage",
     "test": "npm run format && npm run test-api && npm run test-types",
-    "prepublishOnly": "npm run generate && npm run test"
+    "prepublishOnly": "npm run test"
   },
   "prettier": {
     "tabWidth": 2,

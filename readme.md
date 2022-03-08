@@ -1,8 +1,7 @@
 # `cmu-pronouncing-dictionary-cjs`
 
-[![Build][build-badge]][build]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
+[!\[Downloads\]\[downloads-badge\]][downloads]
+[!\[Size\]\[size-badge\]][size]
 
 The 134,000+ words and their pronunciations in the CMU pronouncing dictionary.
 
@@ -15,8 +14,8 @@ Crawled from [`cmusphinx/cmudict`][cmudict].
 
 ## Install
 
-This package is a fork of `cmu-pronouncing-dictionary` that exposes a common js module to make it
-easier to import via TypeScript!
+This package is a fork of `cmu-pronouncing-dictionary` that exposes a common
+js module to make it easier to import via TypeScript!
 
 [npm][]:
 
