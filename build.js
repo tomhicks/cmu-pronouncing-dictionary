@@ -1,7 +1,7 @@
-import {writeFile} from 'node:fs'
-import {request} from 'node:https'
-import concat from 'concat-stream'
-import {bail} from 'bail'
+const {writeFile} = require('node:fs')
+const {request} = require('node:https')
+const concat = require('concat-stream')
+const {bail} = require('bail')
 
 const endpoint =
   'https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict'
