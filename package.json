@@ -1,7 +1,7 @@
 {
-  "name": "cmu-pronouncing-dictionary",
+  "name": "cmu-pronouncing-dictionary-cjs",
   "version": "3.0.0",
-  "description": "The 134,000+ words and their pronunciations in the CMU pronouncing dictionary",
+  "description": "Common JS version of the 134,000+ words and their pronunciations in the CMU pronouncing dictionary",
   "license": "ISC",
   "keywords": [
     "english",
@@ -14,15 +14,15 @@
     "dictionary",
     "rhyme"
   ],
-  "repository": "words/cmu-pronouncing-dictionary",
-  "bugs": "https://github.com/words/cmu-pronouncing-dictionary/issues",
-  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "repository": "https://github.com/tomhicks/cmu-pronouncing-dictionary",
+  "bugs": "https://github.com/tomhicks/cmu-pronouncing-dictionary/issues",
+  "author": "Tom Hicks",
   "contributors": [
+    "Tom Hicks",
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
     "Christian Murphy <christian.murphy.42@gmail.com>"
   ],
-  "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [

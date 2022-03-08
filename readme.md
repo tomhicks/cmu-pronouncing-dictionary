@@ -1,4 +1,4 @@
-# `cmu-pronouncing-dictionary`
+# `cmu-pronouncing-dictionary-cjs`
 
 [![Build][build-badge]][build]
 [![Downloads][downloads-badge]][downloads]
@@ -15,19 +15,19 @@ Crawled from [`cmusphinx/cmudict`][cmudict].
 
 ## Install
 
-This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c):
-Node 12+ is needed to use it and it must be `import`ed instead of `require`d.
+This package is a fork of `cmu-pronouncing-dictionary` that exposes a common js module to make it
+easier to import via TypeScript!
 
 [npm][]:
 
 ```sh
-npm install cmu-pronouncing-dictionary
+npm install cmu-pronouncing-dictionary-cjs
 ```
 
 ## Use
 
 ```js
-import { dictionary } from 'cmu-pronouncing-dictionary'
+const { dictionary } = require('cmu-pronouncing-dictionary-cjs')
 
 console.log(dictionary)
 ```
@@ -87,21 +87,13 @@ Those are represented as `$word($counter)`, like so:
 
 ## License
 
-[ISC][license] © [Zeke Sikelianos][author]
+[ISC][license] © [Tom Hicks][author]
 
 <!-- Definition -->
 
-[build-badge]: https://img.shields.io/travis/words/cmu-pronouncing-dictionary.svg
+[downloads]: https://www.npmjs.com/package/cmu-pronouncing-dictionary-cjs
 
-[build]: https://travis-ci.org/words/cmu-pronouncing-dictionary
-
-[downloads-badge]: https://img.shields.io/npm/dm/cmu-pronouncing-dictionary.svg
-
-[downloads]: https://www.npmjs.com/package/cmu-pronouncing-dictionary
-
-[size-badge]: https://img.shields.io/bundlephobia/minzip/cmu-pronouncing-dictionary.svg
-
-[size]: https://bundlephobia.com/result?p=cmu-pronouncing-dictionary
+[size]: https://bundlephobia.com/result?p=cmu-pronouncing-dictionary-cjs
 
 [npm]: https://docs.npmjs.com/cli/install
 

@@ -33,7 +33,7 @@ function onconcat(buffer) {
 
   writeFile(
     'index.js',
-    '/** @type {{ [word: string]: string }} */\nexport const dictionary = ' +
+    '/** @type {{ [word: string]: string }} */\nexports.dictionary = ' +
       JSON.stringify(words, null, 2) +
       '\n',
     bail
